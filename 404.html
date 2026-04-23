@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <title>HR智汇 - 404</title>
+    <script>
+      // GitHub Pages SPA 回退：将 404 请求重定向到首页
+      // 配合 HashRouter 使用，确保直接访问任意路由都能正常加载
+      sessionStorage.redirect = location.href;
+    </script>
+    <meta http-equiv="refresh" content="0;URL='/'">
+  </head>
+  <body>
+    正在重定向到 HR智汇...
+  </body>
+</html>
